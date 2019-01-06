@@ -1,0 +1,13 @@
+D:\Hacan\Odevler\Smiley\Smiley\bin\Debug\Smiley.exe.config
+D:\Hacan\Odevler\Smiley\Smiley\bin\Debug\Smiley.exe
+D:\Hacan\Odevler\Smiley\Smiley\bin\Debug\Smiley.pdb
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.csprojAssemblyReference.cache
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.CreateEmoji.resources
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.Form1.resources
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.Properties.Resources.resources
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.csproj.GenerateResource.cache
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.csproj.CoreCompileInputs.cache
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.exe
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.pdb
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.Create.resources
+D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.CreateCategory.resources
