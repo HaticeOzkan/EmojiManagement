@@ -20,6 +20,7 @@ namespace Smiley
         private void buttonSave_Click(object sender, EventArgs e)
         {
             Program.EmojiRepo.AddGroup(textBoxCategoryName.Text);
+            Program.Helper.RefreshMailGrid(sender, e);
         }
     }
 }

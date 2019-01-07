@@ -20,11 +20,12 @@ namespace Smiley
         private void buttonSave_Click(object sender, EventArgs e)
         {
             Program.EmojiRepo.AddEmoji(textBoxName.Text, textBoxArt.Text, (string)comboBoxGroupName.SelectedItem);
+            Program.Helper.RefreshMailGrid(sender, e);
         }
 
         public void CreateEmoji_Load(object sender, EventArgs e)
         {
-          
+           Program.Helper.CmBoxGroup(comboBoxGroupName);
         }
 
        

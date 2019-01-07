@@ -51,14 +51,19 @@ namespace Smiley
             EmojiClass.Item Item= new EmojiClass.Item();
             Item.Art = Emoji;
             Item.Name = EmojiName;
-            foreach (EmojiClass.RootObject Group in List)
+            try
             {
-                if (Group.Category == CategoryName)
+                foreach (EmojiClass.RootObject Group in List)
                 {
-                    Group.Items.Add(Item);
+                    if (Group.Category == CategoryName)
+                    {
+                        Group.Items.Add(Item);
+                    }
                 }
+                Program.JsonHelper.InsertJson(List);
             }
-            Program.JsonHelper.InsertJson(List);
+            catch { }
+          
         }
         public void AddGroup(string GroupName)
         {
@@ -73,13 +78,22 @@ namespace Smiley
             List<EmojiClass.RootObject> List =Program.JsonHelper.GetFromJson();
             foreach (EmojiClass.RootObject Group in List)
             {
-                foreach (EmojiClass.Item item in Group.Items)
+                try
                 {
-                    if (item.Name == Name)
-                        Group.Items.Remove(item);
+                    foreach (EmojiClass.Item item in Group.Items)
+                    {
+                        if (item.Name == Name)
+                        {
+                            Group.Items.Remove(item);
+                            Program.JsonHelper.InsertJson(List);
+                        }
+                    }
                 }
+                catch { }
+               
             }
         }
+        
        
     }
 }
