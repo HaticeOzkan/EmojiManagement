@@ -30,6 +30,26 @@ namespace Smiley
             Btn.Text = item.Art + Environment.NewLine + Environment.NewLine + item.Name;
             return Btn;
         }
+        public static void CmBoxGroup(ComboBox CmBx)
+        {
+            List<EmojiClass.RootObject> List = Program.JsonHelper.GetFromJson();
+            foreach (EmojiClass.RootObject item in List)
+            {
+                CmBx.Items.Add(item.Category);
+            }
+        }
+        public static void CmBoxEmoji(ComboBox CmBx)
+        {
+            List<EmojiClass.RootObject> List = Program.JsonHelper.GetFromJson();
+            foreach (EmojiClass.RootObject Group in List)
+            {
+                foreach (var item in Group.Items)
+                {
+                    CmBx.Items.Add(item.Name);
+                }
+
+            }
+        }
 
 
     }

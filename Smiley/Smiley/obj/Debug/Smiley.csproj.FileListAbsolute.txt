@@ -11,3 +11,17 @@ D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.exe
 D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.pdb
 D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.Create.resources
 D:\Hacan\Odevler\Smiley\Smiley\obj\Debug\Smiley.CreateCategory.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe.config
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.pdb
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csprojResolveAssemblyReference.cache
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Create.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.CreateCategory.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.CreateEmoji.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Form1.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Properties.Resources.resources
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csproj.GenerateResource.cache
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.exe
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.pdb
+C:\Users\Section1\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.UpdateEmoji.resources

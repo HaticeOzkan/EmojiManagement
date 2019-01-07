@@ -24,16 +24,9 @@ namespace Smiley
 
         public void CreateEmoji_Load(object sender, EventArgs e)
         {
-          CmBoxGroup();
+          
         }
 
-        private void CmBoxGroup()
-        {
-            List<EmojiClass.RootObject> List = Program.JsonHelper.GetFromJson();
-            foreach (EmojiClass.RootObject item in List)
-            {
-                comboBoxGroupName.Items.Add(item.Category);
-            }
-        }
+       
     }
 }

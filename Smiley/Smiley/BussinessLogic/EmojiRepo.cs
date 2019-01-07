@@ -24,7 +24,7 @@ namespace Smiley
                     {
                         Button Btn = Program.Helper.ButonProperty(item);
                         Panel.Controls.Add(Btn);                       
-                        Btn.MouseClick += new MouseEventHandler(Btn_MouseClick);
+                        Btn.MouseUp += new MouseEventHandler(Btn_MouseClick);
                        
                     }
                 }               
@@ -34,14 +34,14 @@ namespace Smiley
         {
             if (e.Button == MouseButtons.Left)
             {
-                MessageBox.Show("sol");
+                MessageBox.Show(((Button)sender).Text);
             }
             if (e.Button == MouseButtons.Right)
             {
               var Result = MessageBox.Show("Silmek istediğinizden eminmisiniz", "Delete", MessageBoxButtons.YesNo);
                 if (Result == DialogResult.Yes)
                 {
-                   // DeleteEmoji(Btn.Name);
+                  DeleteEmoji(((Button)sender).Name);
                 }
             }
         }
