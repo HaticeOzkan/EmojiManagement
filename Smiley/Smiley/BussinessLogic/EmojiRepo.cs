@@ -23,6 +23,7 @@ namespace Smiley
                     foreach (EmojiClass.Item item in EmojiGroup.Items)
                     {
                         Button Btn = Program.Helper.ButonProperty(item);
+                        Clipboard.SetText(item.Art+Environment.NewLine+item.Name);
                         Panel.Controls.Add(Btn);                       
                         Btn.MouseUp += new MouseEventHandler(Btn_MouseClick);
                        
@@ -41,7 +42,9 @@ namespace Smiley
               var Result = MessageBox.Show("Silmek istediğinizden eminmisiniz", "Delete", MessageBoxButtons.YesNo);
                 if (Result == DialogResult.Yes)
                 {
-                  DeleteEmoji(((Button)sender).Name);
+                   string[] Text= ((Button)sender).Text.Split('\n');
+                  DeleteEmoji(Text[2]);
+                    Program.Helpe
                 }
             }
         }
@@ -75,8 +78,12 @@ namespace Smiley
             {
                 foreach (EmojiClass.Item item in Group.Items)
                 {
-                    if (item.Name == Name)
-                        Group.Items.Remove(item);
+                    while (Group.Items!=null)
+                    {
+                        if (item.Name == Name)
+                            Group.Items.Remove(item);
+                    }
+                  
                 }
             }
         }
