@@ -32,7 +32,6 @@ namespace Smiley
             File.WriteAllText("../../Emoji.json", "");
             string Text = Translator.Serialize(List);
             File.WriteAllText("../../Emoji.json", Text);
-
         }
     }
 }

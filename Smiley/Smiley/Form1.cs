@@ -17,9 +17,10 @@ namespace Smiley
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {           
-            Program.EmojiRepo.BringEmoji(Program.JsonHelper.GetFromJson(), flowLayoutPanelEmoji);
+        public void Form1_Load(object sender, EventArgs e)
+        {
+            flowLayoutPanelEmoji.Controls.Clear();  
+            Program.EmojiRepo.BringEmoji(flowLayoutPanelEmoji);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace Smiley
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            new UpdateEmoji().Show();
         }
     }
 }
