@@ -39,3 +39,17 @@ C:\Users\funda\Source\Repos\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.pdb
 C:\Users\funda\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe.config
 C:\Users\funda\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe
 C:\Users\funda\Source\Repos\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.pdb
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe.config
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.exe
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\bin\Debug\Smiley.pdb
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csprojAssemblyReference.cache
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Create.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.CreateCategory.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.CreateEmoji.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Form1.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.Properties.Resources.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.UpdateEmoji.resources
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csproj.GenerateResource.cache
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.csproj.CoreCompileInputs.cache
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.exe
+C:\Users\funda\Documents\GitHub\EmojiManagement\Smiley\Smiley\obj\Debug\Smiley.pdb

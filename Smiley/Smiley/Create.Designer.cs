@@ -34,28 +34,31 @@
             // 
             // btnEmoji
             // 
+            this.btnEmoji.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnEmoji.Location = new System.Drawing.Point(214, 82);
             this.btnEmoji.Name = "btnEmoji";
             this.btnEmoji.Size = new System.Drawing.Size(129, 41);
             this.btnEmoji.TabIndex = 5;
             this.btnEmoji.Text = "New Emoji";
-            this.btnEmoji.UseVisualStyleBackColor = true;
+            this.btnEmoji.UseVisualStyleBackColor = false;
             this.btnEmoji.Click += new System.EventHandler(this.btnEmoji_Click);
             // 
             // btnCategory
             // 
+            this.btnCategory.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnCategory.Location = new System.Drawing.Point(44, 82);
             this.btnCategory.Name = "btnCategory";
             this.btnCategory.Size = new System.Drawing.Size(125, 41);
             this.btnCategory.TabIndex = 4;
             this.btnCategory.Text = "New Category";
-            this.btnCategory.UseVisualStyleBackColor = true;
+            this.btnCategory.UseVisualStyleBackColor = false;
             this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
             // 
             // Create
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(386, 204);
             this.Controls.Add(this.btnEmoji);
             this.Controls.Add(this.btnCategory);

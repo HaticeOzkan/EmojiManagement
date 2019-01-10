@@ -52,22 +52,21 @@ namespace Smiley
         public void AddEmoji(string EmojiName, string Emoji, string CategoryName)
         {
             List<EmojiClass.RootObject> List = Program.JsonHelper.GetFromJson();
-            EmojiClass.Item Item = new EmojiClass.Item();
-            Item.Art = Emoji;
-            Item.Name = EmojiName;
-            try
-            {
+
                 foreach (EmojiClass.RootObject Group in List)
                 {
                     if (Group.Category == CategoryName)
-                    {
-                        Group.Items.Add(Item);
+                    {   if(Group.Items==null)
+                        Group.Items = new List<EmojiClass.Item>();
+
+                    EmojiClass.Item x = new EmojiClass.Item();
+                        x.Art = Emoji;
+                        x.Name = EmojiName;
+                        Group.Items.Add(x);
                     }
                 }
-                Program.JsonHelper.InsertJson(List);
-            }
-            catch { }
-
+               
+            Program.JsonHelper.InsertJson(List);
         }
         public void AddGroup(string GroupName)
         {
